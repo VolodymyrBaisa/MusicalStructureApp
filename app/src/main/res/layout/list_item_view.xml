@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingTop="10dp"
+    android:paddingEnd="5dp"
+    android:paddingStart="5dp"
+    android:paddingBottom="10dp">
+
+        <ImageView
+            style="@style/IconsStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/ic_stat_play_arrow" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sounds_title"
+                style="@style/TextStyleBold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                tools:text="KAAZE Feat. Elle Vee - Opera (Radio Edit) [OUT NOW]" />
+
+            <TextView
+                android:id="@+id/records"
+                style="@style/TextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Maxximize Records" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/sounds_time"
+            style="@style/TextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            tools:text="3:41" />
+    </LinearLayout>
