@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".player.PlayerActivity" android:screenOrientation="portrait">
+        <activity android:name=".player.PlayerActivity" android:screenOrientation="portrait" android:label="@string/player">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".playlist.PlaylistActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".playlist.PlaylistActivity" android:screenOrientation="portrait" android:label="@string/playlist"/>
     </application>
 
 </manifest>
